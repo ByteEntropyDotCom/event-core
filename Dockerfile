@@ -12,7 +12,7 @@ WORKDIR /app
 RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
 
-COPY --from=build /app/target/event-core-1.0.0.jar app.jar
+COPY --from=build /app/target/reconciliation-core-1.0.0.jar app.jar
 
 # Configuration for shared database volume (if using file-based H2)
 VOLUME /tmp
