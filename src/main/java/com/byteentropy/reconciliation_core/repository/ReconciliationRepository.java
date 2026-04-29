@@ -1,6 +1,6 @@
 package com.byteentropy.reconciliation_core.repository;
 
-import com.byteentropy.event_core.model.PaymentEntity;
+import com.byteentropy.reconciliation_core.model.PaymentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
