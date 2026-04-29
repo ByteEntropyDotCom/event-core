@@ -1,6 +1,6 @@
 package com.byteentropy.reconciliation_core.client;
 
-import com.byteentropy.event_core.model.StatusInquiryResponse;
+import com.byteentropy.reconciliation_core.model.StatusInquiryResponse;
 import org.springframework.stereotype.Component;
 import java.util.UUID;
 import java.util.Random;
