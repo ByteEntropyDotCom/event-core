@@ -1,10 +1,11 @@
-package com.byteentropy.event_core;
+package com.byteentropy.reconciliation_core;
 
-import com.byteentropy.event_core.client.BankInquiryClient;
-import com.byteentropy.event_core.model.PaymentEntity;
-import com.byteentropy.event_core.model.StatusInquiryResponse;
-import com.byteentropy.event_core.repository.ReconciliationRepository;
-import com.byteentropy.event_core.scheduler.ReconciliationWorker;
+import com.byteentropy.reconciliation_core.client.BankInquiryClient;
+import com.byteentropy.reconciliation_core.model.PaymentEntity;
+import com.byteentropy.reconciliation_core.model.StatusInquiryResponse;
+import com.byteentropy.reconciliation_core.repository.ReconciliationRepository;
+import com.byteentropy.reconciliation_core.scheduler.ReconciliationWorker;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
