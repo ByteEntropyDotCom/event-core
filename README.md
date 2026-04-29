@@ -1,6 +1,6 @@
 # 🛡️ reconciliation-core: The Self-Healing Reconciler
 
-The `reconciliation-core` is the asynchronous safety net of the ByteEntropy payment ecosystem. Its primary job is to resolve transactions stuck in an **UNCERTAIN** state due to network timeouts or bank delays.
+The `reconciliation-core` is to resolve transactions stuck in an **UNCERTAIN** state due to network timeouts or bank delays.
 
 ## 🚀 Role in the Ecosystem
 1. **Detection:** Scans the shared database for transactions with `UNCERTAIN` status.
