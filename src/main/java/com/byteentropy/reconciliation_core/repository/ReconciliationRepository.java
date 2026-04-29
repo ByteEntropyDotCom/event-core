@@ -1,4 +1,4 @@
-package com.byteentropy.event_core.repository;
+package com.byteentropy.reconciliation_core.repository;
 
 import com.byteentropy.event_core.model.PaymentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
