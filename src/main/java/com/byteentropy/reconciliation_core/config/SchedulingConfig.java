@@ -1,4 +1,4 @@
-package com.byteentropy.event_core.config;
+package com.byteentropy.reconciliation_core.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
