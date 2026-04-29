@@ -1,4 +1,4 @@
-package com.byteentropy.event_core.model;
+package com.byteentropy.reconciliation_core.model;
 
 /**
  * Structured response from the Bank's Status Inquiry API.
